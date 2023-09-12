@@ -1,0 +1,22 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/v1/completions",
+    "headers": {
+      "Authorization": {
+        "contains": "inValidAuthToken"
+      }
+    },
+    "bodyPatterns": [
+      {
+        "contains": "What is the capital of North Carolina, USA"
+      }
+    ]
+  },
+  "response": {
+    "status": 400,
+    "jsonBody": {
+      "error": "authToken is invalid"
+    }
+  }
+}

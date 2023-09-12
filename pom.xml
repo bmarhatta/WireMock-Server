@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.0.6</version>
+		<version>3.1.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>bishwo</groupId>
@@ -15,11 +15,8 @@
 	<description>WireMock template</description>
 	<properties>
 		<java.version>17</java.version>
-		<spring-integration-core.version>6.0.5</spring-integration-core.version>
-		<spring-integration-file.version>6.0.5</spring-integration-file.version>
 		<spring-cloud-contract-wiremock>4.0.2</spring-cloud-contract-wiremock>
 		<wiremock-jre8-standalone>2.35.0</wiremock-jre8-standalone>
-		<lombok.version>1.18.26</lombok.version>
 	</properties>
 	<dependencies>
 		<!--Spring dependencies-->

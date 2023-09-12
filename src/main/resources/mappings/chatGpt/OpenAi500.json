@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/v1/completions",
+    "bodyPatterns": [
+      {
+        "contains": "What is the capital of South Carolina, USA"
+      }
+    ]
+  },
+  "response": {
+    "status": 500,
+    "jsonBody": {
+      "error": "System failed"
+    }
+  }
+}
